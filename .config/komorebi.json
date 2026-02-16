@@ -1,0 +1,116 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 13,
+  "default_container_padding": 10,
+  "focus_follows_mouse": "Komorebi",
+  "mouse_follows_focus": false,
+  "transparency": false,
+  "transparency_alpha": 225,
+  "animation": {
+    "enabled": false,
+    "duration": 200,
+    "style": "EaseOutSine",
+    "fps": 120
+  },
+  "border": false,
+  "stackbar": {
+    "height": 20,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 200,
+      "focused_text": "#f0f0f0",
+      "unfocused_text": "#adadad",
+      "background": "#191919",
+      "font_family": "Poppins",
+      "font_size": 16
+    }
+  },
+  "float_rules": [
+    {
+      "kind": "Exe",
+      "id": "ApplicationFrameHost.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "yasb.exe",
+      "matching_strategy": "Equals"
+    },    
+    {
+      "kind": "Exe",
+      "id": "python3.12.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "yasb.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "LogiAiPromptBuilder.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Mullvad VPN.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  
+  "monitors": [
+    {
+      "workspaces": [
+        {
+            "name": "1",
+            "layout": "BSP"
+          },
+          {
+            "name": "2",
+            "layout": "BSP"
+
+          },
+          {
+            "name": "3",
+            "layout": "BSP"
+          },
+          {
+            "name": "4",
+            "layout": "BSP"
+          },
+          {
+            "name": "5",
+            "layout": "BSP"
+          }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "BSP"
+        },
+        {
+          "name": "3",
+          "layout": "BSP"
+        },
+        {
+          "name": "4",
+          "layout": "BSP"
+
+        },
+        {
+          "name": "5",
+          "layout": "BSP"
+        }
+      ]
+    }
+  ]
+}
